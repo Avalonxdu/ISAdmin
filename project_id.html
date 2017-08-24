@@ -7,15 +7,20 @@
 		<script type="text/javascript" src="js/jquery-3.1.1.js" ></script>
 		<script type="text/javascript" src="js/bootstrap.js" ></script>
 		<link rel="stylesheet" href="css/indexmenu.css"/>
+		<style>
+			select{
+				font-size: 20px;
+			}
+		</style>
 	</head>
 	<body>
-		<header>
+		<header class="container">
 			<div class="logo">
 				<!-- logo层 -->
 				<div class="logopic">
 					<!-- logo图片 -->
 				</div>
-				<div class="systemname text-center">
+				<div class="systemname text-center img-responsive center-block">
 					<!-- 系统名称 -->
 					<p>配置审查管理系统</p>
 				</div>
@@ -47,8 +52,12 @@
 						<a href="DataInput.html" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">测评数据导入</a>
 						<a href="#" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right">测评数据</a>
 					</div>
+					<ul class="nav nav-tabs">
+	      				<li><a href="#zhuji" style="background: #8B42D6;color: #FFFFFF;" data-toggle = "tab">主机</a></li>
+	      				<li><a href="#wangluo" style="background: #8B42D6;color: #FFFFFF;" data-toggle = "tab" >网络</a></li>
+	      			</ul>
 					<div class="tab-content">
-					<div style="border:  solid 2px grey;" class="tab-pane active" id="zhuji">
+					<div style="border:  solid 2px #eeeeee;" class="tab-pane active" id="zhuji">
 						<table class="table table-striped">
 							<tr>
 								<td>	id	</td>
@@ -147,7 +156,7 @@
 					</div>
 					
 					</div>
-					<div style="border:  solid 2px grey;" class="tab-pane" id="wangluo">
+					<div style="border:  solid 2px #eeeeee;" class="tab-pane" id="wangluo">
 						<table class="table table-striped">
 							<tr>
 								<td>	id	</td>
@@ -264,10 +273,10 @@
 					</div>
 					</div>
 					
-					<div class="nav nav-tabs">
-	      				<a href="#zhuji" class="btn creategray" data-toggle = "tab">主机</a>
-	      				<a href="#wangluo" class="btn creategray" data-toggle = "tab" >网络</a>
-	      			</div>
+					<!--<ul class="nav nav-tabs">
+	      				<li><a href="#zhuji" class=" " data-toggle = "tab">主机</a></li>
+	      				<li><a href="#wangluo" class=" " data-toggle = "tab" >网络</a></li>
+	      			</ul>-->
 
 					
 				</div>

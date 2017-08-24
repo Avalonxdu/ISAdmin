@@ -29,7 +29,9 @@ label{
 	background-image: url(../img/top_bg1.jpg);
 	height: 100px;
 	background-repeat:no-repeat;
-	background: url(../img/top_bg1.jpg) no-repeat center center;
+	background: url(../img/top_bg1.jpg) no-repeat center;/*center top*/
+	background-position: center center;
+	margin: 0 auto;
 }
 .systemname p{/*头部系统名称的字体及大小*/
 	font-family: "微软雅黑";
