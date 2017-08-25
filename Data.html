@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>配置审查管理系统</title>
+		<title>配置核查管理系统</title>
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<script type="text/javascript" src="js/jquery-3.1.1.js" ></script>
 		<script type="text/javascript" src="js/bootstrap.js" ></script>
@@ -22,7 +22,7 @@
 				</div>
 				<div class="systemname text-center img-responsive center-block">
 					<!-- 系统名称 -->
-					<p>配置审查管理系统</p>
+					<p>配置核查管理系统</p>
 				</div>
 			</div>
 			<div class="nav">
@@ -46,118 +46,267 @@
 					
 					<h2 class="text-left"><a href="index.html">主页</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="project.html">项目管理</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="project.html">xxx项目</a></h2>
 					
-					<div>
+					<div class="tabtitle">
 						<a href="project_id.html" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left">测评对象</a>
 						<a href="WorkOutput.html" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">作业指导书导出</a>
 						<a href="DataInput.html" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">测评数据导入</a>
 						<a href="#" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right">测评数据</a>
 					</div>
 					<ul class="nav nav-tabs">
-	      				<li><a href="#zhuji" style="background: #8B42D6;color: #FFFFFF;" data-toggle = "tab">windows</a></li>
-	      				<li><a href="#wangluo" style="background: #8B42D6;color: #FFFFFF;" data-toggle = "tab" >linux</a></li>
+	      				<li><a href="#zhuji" style="background: #8B42D6;color: #FFFFFF;" data-toggle = "tab">主机</a></li>
+	      				<li><a href="#wangluo" style="background: #8B42D6;color: #FFFFFF;" data-toggle = "tab" >网络</a></li>
 	      			</ul>
 					<div class="tab-content">
-					<div style="border:  solid 2px #eeeeee;" class="tab-pane active" id="zhuji">
-						<table class="table table-striped">
-							<tr>
-								<td>测评指标</td>							
-								<td>控制项</td>
-								<td>检查方法</td>
-								<td>推荐值</td>
-								<td>判断标准</td>
-								<td>测试结果</td>
-								<td>符合性</td>
-								<td>备注</td>
-
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>项目名称</td>
-								<td>3.0</td>
-								<td>192.168.1.1</td>
-								<td><input type="checkbox"></td>
-								<td><select>
-											  <option value ="volvo">Volvo</option>
-											  <option value ="saab">Saab</option>
-											  <option value="opel">Opel</option>
-											  <option value="audi">Audi</option>
-										</select></td>
-								<td><select>
-											  <option value ="volvo">Volvo</option>
-											  <option value ="saab">Saab</option>
-											  <option value="opel">Opel</option>
-											  <option value="audi">Audi</option>
-										</select></td>
-								<td><input type="button" class="btn btn-info" value="增加"/><input type="button" class="btn " value="删除"/></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>项目名称</td>
-								<td>3.0</td>
-								<td>192.168.1.1</td>
-								<td><input type="checkbox"></td>
-								<td><select>
-											  <option value ="volvo">Volvo</option>
-											  <option value ="saab">Saab</option>
-											  <option value="opel">Opel</option>
-											  <option value="audi">Audi</option>
-										</select></td>
-								<td><select>
-											  <option value ="volvo">Volvo</option>
-											  <option value ="saab">Saab</option>
-											  <option value="opel">Opel</option>
-											  <option value="audi">Audi</option>
-										</select></td>
-								<td><input type="button" class="btn btn-info" value="增加"/><input type="button" class="btn " value="删除"/></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>项目名称</td>
-								<td>3.0</td>
-								<td>192.168.1.1</td>
-								<td><input type="checkbox"></td>
-								<td><select>
-											  <option value ="volvo">Volvo</option>
-											  <option value ="saab">Saab</option>
-											  <option value="opel">Opel</option>
-											  <option value="audi">Audi</option>
-										</select></td>
-								<td><select>
-											  <option value ="volvo">Volvo</option>
-											  <option value ="saab">Saab</option>
-											  <option value="opel">Opel</option>
-											  <option value="audi">Audi</option>
-										</select></td>
-								<td><input type="button" class="btn btn-info" value="增加"/><input type="button" class="btn " value="删除"/></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>项目名称</td>
-								<td>3.0</td>
-								<td>192.168.1.1</td>
-								<td><input type="checkbox"></td>
-								<td><select>
-											  <option value ="volvo">Volvo</option>
-											  <option value ="saab">Saab</option>
-											  <option value="opel">Opel</option>
-											  <option value="audi">Audi</option>
-										</select></td>
-								<td><select>
-											  <option value ="volvo">Volvo</option>
-											  <option value ="saab">Saab</option>
-											  <option value="opel">Opel</option>
-											  <option value="audi">Audi</option>
-										</select></td>
-								<td><input type="button" class="btn btn-info" value="增加"/><input type="button" class="btn " value="删除"/></td>
-							</tr>
-						</table>
-						<div>
-						<a href="createpro.html" class="btn creategray text-left" />新建</a><input type="button" class="btn text-right" value="确定"/>
-					</div>
-					
-					</div>
-					<div style="border:  solid 2px #eeeeee;" class="tab-pane" id="wangluo">
-						<table class="table table-striped">
+						<!--
+                        	描述：主机面板部分
+                        -->
+						<div style="border:  solid 2px #eeeeee;" class="tab-pane active" id="zhuji">
+							<ul class="nav nav-tabs">
+	      						<li><a href="#windows" style="background: #8B42D6;color: #FFFFFF;"class="" data-toggle = "tab">Windows</a></li>
+	      						<li><a href="#linux" style="background: #8B42D6;color: #FFFFFF;"class="" data-toggle = "tab" >Linux</a></li>
+	      					</ul>
+	      					<div class="tab-content">
+	      						<!--
+                                  	描述：Windows面板部分
+                                  -->
+                                <div style="border:  solid 2px #eeeeee;" class="tab-pane active" id="windows"> 
+                                	<table class="table table-striped">
+                                		<tr>
+                                			<td>测评指标</td>
+                                			<td>控制项</td>
+                                			<td>检查方法</td>
+                                			<td>推荐值</td>
+                                			<td>判断标准</td>
+                                			<td>测试结果</td>
+                                			<td>符合性</td>
+                                			<td>备注</td>
+                                	
+                                		</tr>
+                                		<tr>
+                                			<td>1</td>
+                                			<td>项目名称</td>
+                                			<td>3.0</td>
+                                			<td>192.168.1.1</td>
+                                			<td>testtest
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td><input type="button" class="btn btn-info" value="增加" /><input type="button" class="btn " value="删除" /></td>
+                                		</tr>
+                                		<tr>
+                                			<td>1</td>
+                                			<td>项目名称</td>
+                                			<td>3.0</td>
+                                			<td>192.168.1.1</td>
+                                			<td>testtest
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td><input type="button" class="btn btn-info" value="增加" /><input type="button" class="btn " value="删除" /></td>
+                                		</tr>
+                                		<tr>
+                                			<td>1</td>
+                                			<td>项目名称</td>
+                                			<td>3.0</td>
+                                			<td>192.168.1.1</td>
+                                			<td>testtest
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td><input type="button" class="btn btn-info" value="增加" /><input type="button" class="btn " value="删除" /></td>
+                                		</tr>
+                                		<tr>
+                                			<td>1</td>
+                                			<td>项目名称</td>
+                                			<td>3.0</td>
+                                			<td>192.168.1.1</td>
+                                			<td>testtest
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td><input type="button" class="btn btn-info" value="增加" /><input type="button" class="btn " value="删除" /></td>
+                                		</tr>
+                                	</table>
+                                </div>
+                                
+                                <!--
+                                  	描述：Linux面板部分
+                                  -->
+                                <div style="border:  solid 2px #eeeeee;" class="tab-pane" id="linux"> 
+                                	<table class="table table-striped">
+                                		<tr>
+                                			<td>测评指标</td>
+                                			<td>控制项</td>
+                                			<td>检查方法</td>
+                                			<td>推荐值</td>
+                                			<td>判断标准</td>
+                                			<td>测试结果</td>
+                                			<td>符合性</td>
+                                			<td>备注</td>
+                                	
+                                		</tr>
+                                		<tr>
+                                			<td>1</td>
+                                			<td>Linux名称</td>
+                                			<td>3.0</td>
+                                			<td>192.168.1.1</td>
+                                			<td>testtest
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td><input type="button" class="btn btn-info" value="增加" /><input type="button" class="btn " value="删除" /></td>
+                                		</tr>
+                                		<tr>
+                                			<td>1</td>
+                                			<td>项目名称</td>
+                                			<td>3.0</td>
+                                			<td>192.168.1.1</td>
+                                			<td>testtest
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td><input type="button" class="btn btn-info" value="增加" /><input type="button" class="btn " value="删除" /></td>
+                                		</tr>
+                                		<tr>
+                                			<td>1</td>
+                                			<td>项目名称</td>
+                                			<td>3.0</td>
+                                			<td>192.168.1.1</td>
+                                			<td>testtest
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td><input type="button" class="btn btn-info" value="增加" /><input type="button" class="btn " value="删除" /></td>
+                                		</tr>
+                                		<tr>
+                                			<td>1</td>
+                                			<td>项目名称</td>
+                                			<td>3.0</td>
+                                			<td>192.168.1.1</td>
+                                			<td>testtest
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td>
+                                					<select>
+                                						<option value="volvo">Volvo</option>
+                                						<option value="saab">Saab</option>
+                                						<option value="opel">Opel</option>
+                                						<option value="audi">Audi</option>
+                                					</select>
+                                				</td>
+                                				<td><input type="button" class="btn btn-info" value="增加" /><input type="button" class="btn " value="删除" /></td>
+                                		</tr>
+                                	</table>
+                                </div>
+	      					</div>
+	      					<!--
+                              
+							<div>
+								<a href="createpro.html" class="btn creategray text-left" />新建</a><input type="button" class="btn text-right" value="确定"/>
+							</div>-->
+						</div>
+						<!--
+                        	描述：网络面板部分
+                        -->
+						<div style="border:  solid 2px #eeeeee;" class="tab-pane" id="wangluo">
+							<table class="table table-striped">
 							<tr>
 								<td>测评指标</td>							
 								<td>控制项</td>
@@ -173,7 +322,7 @@
 								<td>网络名称</td>
 								<td>3.0</td>
 								<td>192.168.1.1</td>
-								<td><input type="checkbox"></td>
+								<td>testtest
 								<td>
 									<select>
 										<option value ="volvo">Volvo</option>
@@ -197,7 +346,7 @@
 								<td>网络名称</td>
 								<td>3.0</td>
 								<td>192.168.1.1</td>
-								<td><input type="checkbox"></td>
+								<td>testtest
 								<td>
 									<select>
 										<option value ="volvo">Volvo</option>
@@ -221,7 +370,7 @@
 								<td>项目名称</td>
 								<td>3.0</td>
 								<td>192.168.1.1</td>
-								<td><input type="checkbox"></td>
+								<td>testtest
 								<td>
 									<select>
 										<option value ="volvo">Volvo</option>
@@ -245,7 +394,7 @@
 								<td>项目名称</td>
 								<td>3.0</td>
 								<td>192.168.1.1</td>
-								<td><input type="checkbox"></td>
+								<td>testtest
 								<td>
 									<select>
 										<option value ="volvo">Volvo</option>
@@ -265,11 +414,14 @@
 								<td><input type="button" class="btn btn-info" value="增加"/><input type="button" class="btn " value="删除"/></td>
 							</tr>
 						</table>
+						<!--
+                        	
+                        
 						<div>
-						<a href="createpro.html" class="btn creategray text-left" />新建</a><input type="button" class="btn text-right" value="确定"/>
-					</div>
+							<a href="createpro.html" class="btn creategray text-left" />新建</a><input type="button" class="btn text-right" value="确定"/>
+						</div>-->
 					
-					</div>
+						</div>
 					</div>
 					
 					<!--<ul class="nav nav-tabs">
@@ -284,7 +436,7 @@
 		<footer>
 			<p class="text-center">
 			<span class="copyright fleft">
-                Copyright &copy; 2014 - 2016 <a href="#">ICS-VUL</a>, All Rights Reserved
+                Copyright &copy; 2014 - 2018 <a href="#">ICS-VUL</a>, All Rights Reserved
 			</span>
         	<span class="other fright">
             · <a href="/contactus/">联系我们</a>
