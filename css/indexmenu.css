@@ -68,7 +68,9 @@ a{
 	margin-top: 5px;
 }
 
-.tabtitle{
-	font-size: 16px;
-	color: ;
+
+.tabtitle a{
+	font-size: 20px;
+	margin-right: 20px;
+	font-family: "微软雅黑";
 }
